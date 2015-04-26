@@ -58,6 +58,7 @@ If you want to use HTML5 notifications with the same API then you can call
 order to use HTML5 notifications so for this reason you should call `enableHtml5Mode`
 in a click event listener or something.
 
+Please open issues for your fork!
 
 ### Thanks to
 
