@@ -1,6 +1,6 @@
 ## AngularJS Notifications
 
-Current Version:  v0.2
+Current Version:  v0.3
 
 ### Dependencies
 
@@ -9,10 +9,7 @@ Current Version:  v0.2
 
 ### Installation
 
-After you've downloaded this repository, include both the CSS and JavaScript
-files and then declare the notifications module as a dependency of your app
-module, eg:
-
+    bower install angular-notifications-extended
     angular.module('myApp', ['notifications'])
 
 Once you've finished that business you should be able to use the notifications
@@ -59,7 +56,7 @@ desktop notifications by specifying an image to display in the notification.
 ### HTML5 Notifications
 
 If you want to use HTML5 notifications with the same API then you can call
-`$notification.enableHtml5Mode()`. 
+`$notification.enableHtml5Mode()`.
 
 **Note:** You will need permissions in order to use HTML5 notifications so for
 this reason you should call `enableHtml5Mode` in a click event listener or
@@ -71,4 +68,3 @@ something.
  - @pablocaselas : https://github.com/DerekRies/angular-notifications/issues/7
  - @deltapsilon : https://github.com/DerekRies/angular-notifications/pull/5
  - @michaelwoods : https://github.com/valaky/angular-notifications/commit/2f05f7832f2af9e74b1fe68d55fe04aeabff52c7
-
